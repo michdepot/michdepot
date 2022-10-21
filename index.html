@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive resume cv</title>
+    </head>
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav_logo">Michelle</a>
+
+                <div class="nav_menu" id="nav-menu">
+                    <ul class="nav_list">
+                        <li class="nav_item">
+                            <a href="#home" class="nav_link"><i class='bx bx-home nav_icon'></i>Home</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#profile" class="nav_link"><i class='bx bx-user nav_icon'></i>Profile</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#education" class="nav_link"><i class='bx bx-book nav_icon'></i>Education</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#skills" class="nav_link"><i class='bx bx-receipt nav_icon'></i>Skills</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#experience" class="nav_link"><i class='bx bx-briefcase-alt nav_icon'></i>Experience</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#certificates" class="nav_link"><i class='bx bx-award nav_icon'></i>Certificates</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#references" class="nav_link"><i class='bx bx-link-external nav_icon'></i>References</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main bd-container" >
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume_left">
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home_container section bd-grid">
+                            <div class="home_data bd-grid">
+                                <img src="assets/img/Michell_Maglapus.jpg" alt="" class="home_img">
+                                <h1 class="home_title">MICHELLE <b>MAGLAPUS</b></h1>
+                                <h3 class="home_profession">Computer Technology Student</h3> 
+                                
+                                <!-- button for download -->
+                                <div>
+                                    <a download="" href="assets/pdf/ResumeCv.pdf" class="home_button-movil"> Download </a>
+                                </div>
+                                
+                            </div>
+
+                            <div class="home_address bd-grid">
+                                <span class="home_information">
+                                    <i class='bx bx-map home_icon'></i>Current Address: Samjung Building, Nasipit Road, Talamban, Cebu City
+                                </span>
+                                <span class="home_information">
+                                    <i class='bx bx-map home_icon'></i>Permanent Address: Northview Parkhomes, Antipolo, Medellin, Cebu
+                                </span>
+                                <span class="home_information">
+                                    <i class='bx bx-envelope home_icon'></i> michelle.maglapus@student. passerellesnumeriques.org
+                                </span>
+                                <span class="home_information">
+                                    <i class='bx bx-phone home_icon'></i> 0905-169-1051
+                                </span>
+                            </div>
+
+                        </div>
+                        <!-- Theme change button -->
+                        <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+    
+                        <!-- Button to generate and download the pdf. Available for desktop. -->
+                        <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+                    </section>          
+                    
+                    <!--========== SOCIAL ==========-->
+                    <section class="social section">
+                        <h2 class="section-title">SOCIAL</h2>
+
+                        <div class="social_container bd-grid">
+                            <a href="https://www.linkedin.com/in/mchllmglps" target="_blank" class="social_link">
+                                <i class='bx bxl-linkedin-square social_icon'></i> @mchllmglps
+                            </a>
+                            <a href="" class="social_link" target="_blank">
+                                <i class='bx bxl-facebook social_icon'></i> @mchllmglps
+                            </a>
+                            <a href="" class="social_link" target="_blank">
+                                <i class='bx bxl-discord-alt social_icon'></i> @mchllmglps
+                            </a>
+                        </div>
+                    </section>
+
+                    <!--========== PROFILE ==========-->
+                    <section class="profile section" id="profile">
+                        <h2 class="section-title">Profile</h2>
+
+                        <p class="profile_description">Currently studying in University of San Carlos under the Certificate of Computer Technology. 
+                            Focusing more on web designing and web developing, front-end and back-end developing, excited to impart passion and 
+                            knowledge to a position related to my skills. Experienced in using HTML, CSS, Java, JavaScript, PHP, Java, Python, 
+                            and SQL to develop features for online databases. Interested as well in graphic designing with basic skills in Adobe Photoshop trained by Datawords Philippines.</p>
+                        </section>
+                    
+                    <!--========== EDUCATION ==========-->
+                    <section class="education section" id="education">
+                        
+                        <h2 class="section-title">Education</h2>
+
+                        <div class="education_container bd-grid">
+                            <div class="education_content">
+                                <div class="education_time">
+                                    <span class="education_rounder"></span>
+                                    <span class="education_line"></span>
+                                </div>
+    
+                                <div class="education_data bd-grid">
+                                    <h3 class="education_title">Certificate of Computer Technology</h3>
+                                    <span class="education_studies">Passerelles Numeriques Philippines Scholar</span>
+                                    <span class="education_studies">University of San Carlos</span>
+                                    <span class="education_year">2021 - Present</span>
+                                </div>
+                            </div>
+    
+                            <div class="education_content">
+                                <div class="education_time">
+                                    <span class="education_rounder"></span>
+                                    <span class="education_line"></span>
+                                </div>
+    
+                                <div class="education_data bd-grid">
+                                    <h3 class="education_title">Accountancy, Business, and Management - Academic Strand</h3>
+                                    <span class="education_studies">Senior High School</span>
+                                    <span class="education_studies">Medellin National High School</span>
+                                    <span class="education_year">2018 - 2020</span>
+                                </div>
+                            </div>
+                            <div class="education_content">
+                                <div class="education_time">
+                                    <span class="education_rounder"></span>
+                                    <!-- <span class="education_line"></span> -->
+                                </div>
+    
+                                <div class="education_data bd-grid">
+                                    <h3 class="education_title">Junior High School</h3>
+                                    <span class="education_studies">Barbara Scholar</span>
+                                    <span class="education_studies">St. Paul School of Medellin</span>
+                                    <span class="education_year">2014 - 2018</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <!--========== SKILLS  ==========-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">Skills</h2>
+
+                        <div class="main">
+                            <div class="progress">
+                              <div class="title">
+                                <h3>HTML</h3>
+                              </div>
+                              <div class="barline">
+                                <div class="countbar" data-percentNumber="90"></div>
+                              </div>
+                            </div>
+                            <div class="progress">
+                              <div class="title">
+                                <h3>CSS</h3>
+                              </div>
+                              <div class="barline">
+                                <div class="countbar" data-percentNumber="80"></div>
+                              </div>
+                            </div>
+                            <div class="progress">
+                              <div class="title">
+                                <h3>graphic design</h3>
+                              </div>
+                              <div class="barline">
+                                <div class="countbar" data-percentNumber="99"></div>
+                              </div>
+                            </div>
+                            <div class="progress">
+                              <div class="title">
+                                <h3>PHP</h3>
+                              </div>
+                              <div class="barline">
+                                <div class="countbar" data-percentNumber="60"></div>
+                              </div>
+                            </div>
+                            <div class="progress">
+                              <div class="title">
+                                <h3>javaScript</h3>
+                              </div>
+                              <div class="barline">
+                                <div class="countbar" data-percentNumber="70"></div>
+                              </div>
+                            </div>
+                            <div class="progress">
+                                <div class="title">
+                                  <h3>Java Programming</h3>
+                                </div>
+                                <div class="barline">
+                                  <div class="countbar" data-percentNumber="50"></div>
+                                </div>
+                              </div>
+                          </div>
+                    </section>
+
+
+                </div>
+
+                <div class="resume_right">
+                    <!--========== EXPERIENCE ==========-->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">Experience</h2>
+
+                        <div class="experience_content">
+                        <div class="experience_time">
+                            <span class="experience_rounder"></span>
+                            <span class="experience_line"></span>
+                        </div>
+
+                        <div class="experience_data bd-grid">
+                            <h3 class="experience_title">HACKATHON</h3>
+                            <span class="experience_company"> September 2021 | Passerelles Numeriques Philippines</span>
+                            <p class="experience_description">Two-day event grouped into four. We designed Magi Play Box, a game-like website with a purpose of attracting donators for the Passerelles Numeriques Foundation.</p>
+                        </div>
+                    </div>
+
+                    <div class="experience_container bd-grid">
+                        <div class="experience_content">
+                            <div class="experience_time">
+                                <span class="experience_rounder"></span>
+                                <span class="experience_line"></span>
+                            </div>
+
+                            <div class="experience_data bd-grid">
+                                <h3 class="experience_title">Front Desk Representative and Ticket Agent</h3>
+                                <span class="experience_company">From November 2020 to May 2021 | Bamboo Forest, Medellin, Cebu</span>
+                                <p class="experience_description">Responsible for welcoming tourists, selling entrance ticket, internal control auditing money from sold entrance tickets, designing facility through painting decorations.</p>
+                            </div>
+                        </div>
+
+                        <div class="experience_content">
+                            <div class="experience_time">
+                                <span class="experience_rounder"></span>
+                                <!-- <span class="experience_line"></span> -->
+                            </div>
+
+                            <div class="experience_data bd-grid">
+                                <h3 class="experience_title">Work Immersion</h3>
+                                <span class="experience_company">From January 2020 to February 2020 | Commission on Elections Office, Medellin, Cebu</span>
+                                <p class="experience_description">From Desk Representative Trainee. Responsible for gretting vistors, issuing valid receipt of each transaction and issuance of Voter's Certificate, printing and computing statistics through Microsoft Excel. Trained in Adobe Photoshop for a short period of time.</p>
+                            </div>
+                        </div>
+                    </div>
+                    </section>
+
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">Training and Seminars</h2>
+    
+                        <div class="experience_container bd-grid">
+                            <div class="experience_content">
+                                <div class="experience_time">
+                                    <span class="experience_rounder"></span>
+                                    <span class="experience_line"></span>
+                                </div>
+    
+                                <div class="experience_data bd-grid">
+                                    <h3 class="experience_title">Adobe Photoshop Virtual and On-site Training</h3>
+                                    <span class="experience_company">From April 22, 2022 to June 24, 2022 | Datawords Philippines</span>
+                                </div>
+                            </div>
+    
+                            <div class="experience_content">
+                                <div class="experience_time">
+                                    <span class="experience_rounder"></span>
+                                    <span class="experience_line"></span>
+                                </div>
+    
+                                <div class="experience_data bd-grid">
+                                    <h3 class="experience_title">MACH1 by DICT Courses Training</h3>
+                                    <span class="experience_company">From June 12, 2022 to June 29, 2022 | Commission on Elections Office, Medellin, Cebu</span>
+                                </div>
+                            </div>
+    
+                            <div class="experience_content">
+                                <div class="experience_time">
+                                    <span class="experience_rounder"></span>
+                                    <span class="experience_line"></span>
+                                </div>
+    
+                                <div class="experience_data bd-grid">
+                                    <h3 class="experience_title"> Mobile App development Virtual Workshop</h3>
+                                    <span class="experience_company">October 1, 2022 | EQUALS HDS Philippines</span>
+    
+                                </div>
+                            </div>
+    
+                            <div class="experience_content">
+                                <div class="experience_time">
+                                    <span class="experience_rounder"></span>
+                                    <span class="experience_line"></span>
+                                </div>
+    
+                                <div class="experience_data bd-grid">
+                                    <h3 class="experience_title">Disaster Risk Reduction Management Seminar</h3>
+                                </div>
+                            </div>
+    
+    
+                            <div class="experience_content">
+                                <div class="experience_time">
+                                    <span class="experience_rounder"></span>
+                                    <span class="experience_line"></span>
+                                </div>
+    
+                                <div class="experience_data bd-grid">
+                                    <h3 class="experience_title">Gender Awareness and Sensitivity Webinar</h3>
+                                </div>
+                            </div>
+    
+                            <div class="experience_content">
+                                <div class="experience_time">
+                                    <span class="experience_rounder"></span>
+                                    <span class="experience_line"></span>
+                                </div>
+    
+                                <div class="experience_data bd-grid">
+                                    <h3 class="experience_title">Drug Awareness Webinar</h3>
+                                </div>
+                            </div>
+    
+                            <div class="experience_content">
+                                <div class="experience_time">
+                                    <span class="experience_rounder"></span>
+                                    <!-- <span class="experience_line"></span> -->
+                                </div>
+    
+                                <div class="experience_data bd-grid">
+                                    <h3 class="experience_title">Waste Management and Utilities Consumption Audit Workshop</h3>
+                                </div>
+                            </div>
+    
+    
+    
+                        </div>
+                    </section>
+    
+                    <!-- certificates -->
+                    <section class="sertificate section" id="certificates">
+                        <h2 class="section-title">Certificates</h2>
+    
+                        <div class="certificate_container bd-grid">
+                            <div class="certificate_content">
+                                <h3 class="certificate_title">Digital Content Creator Certificate</h3>
+                                <p class="certificate_description">Only our group received the certificate among five groups with three members.</p>
+                            </div>
+                            <div class="certificate_content">
+                                <h3 class="certificate_title">Completion Certificates of all MACH1 by DICT Free Courses</h3>
+                                <p class="certificate_description">Courses includes Navigating Google Workspace. Designing Presentation Slides. Digital Innovation in Government. Analytics for the Public Sector.
+                                    Data Privacy - Good Governance. Intermediate Level of Digital Transformation. Using HTML and CSS to Design a Website. Programming for Beginners Using Python. Intermediate Users Using Python.
+                                    Learn basic Statistics with Python. Analyze Data with Python. Visualize Data with Python. Build Python Web Apps with Flask.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== LANGUAGES ==========-->
+
+                    <section class="languages section">
+                        <h2 class="section-title">Languages</h2>
+    
+                        <div class="languages_container">
+                            <ul class="languages_content bd-grid">
+                                <li class="languages_name">
+                                    English
+                                </li>
+                                <li class="languages_name">
+                                    Filipino
+                                </li>
+                                <li class="languages_name">
+                                    Cebuano
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+    
+                    <!-- references -->
+    
+                    <section class="references section" id="references">
+                        <h2 class="section-title">References</h2>
+    
+                        <div class="references_container bd-grid">
+                            <div class="references_content bd-grid">
+                                <h3 class="references_title">Ms. Irish Bulan</h3>
+                                <span class="references_subtitle">Education Manager</span>
+                                <ul class="references_contact">
+                                    <li>Phone: 0912-345-6789</li>
+                                    <li>Email: irish.bulan@passerellesnumeriques.org</li>
+                                </ul>
+                            </div>
+                        </div>
+    
+                        <div class="references_container bd-grid">
+                            <div class="references_content bd-grid">
+                                <h3 class="references_title">Mr. Jun Rey Ansing</h3>
+                                <span class="references_subtitle">IT Training Coordinator</span>
+    
+                                <ul class="references_contact">
+                                    <li>Phone: 0912-345-6789</li>
+                                    <li>Email: junrey.ansing@passerellesnumeriques.org</li>
+                                </ul>
+                            </div>
+                        </div>
+    
+                        <div class="references_container bd-grid">
+                            <div class="references_content bd-grid">
+                                <h3 class="references_title">Ms. Marilou Flores</h3>
+                                <span class="references_subtitle">Country Representative of Passerelles Numeriques Philippines</span>
+                                <ul class="references_contact">
+                                    <li>Phone: 0912-345-6789</li>
+                                    <li>Email: marilou.flores@passerellesnumeriques.org</li>
+                                </ul>
+                            </div>
+                        </div>
+    
+    
+                    </section>   
+
+                </div>
+            </div>        
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-up-arrow-alt scrolltop_icon' ></i>   
+        </a>
+
+        <!--========== HTML2PDF ==========-->
+        <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
